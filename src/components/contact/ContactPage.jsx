@@ -1,9 +1,11 @@
 
+import styles from "./contactPage.module.css"
+
 function ContactPage(){
 
     return(
         <>
-        <p>contact</p>
+        <p>Contact</p>
         </>
     )
 }

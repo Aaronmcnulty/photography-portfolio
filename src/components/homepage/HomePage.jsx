@@ -1,10 +1,13 @@
 
+import styles from "./homePage.module.css"
+
 function HomePage(){
 
     return(
-        <>
-        <p>HomePage</p>
-        </>
+        <div className={styles.homePageContainer}>
+                <p>Home</p>
+
+        </div>
     )
 
 }
