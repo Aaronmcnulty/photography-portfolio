@@ -11,24 +11,32 @@
     background-image: url("../../assets/pictures/backupPic.jpeg");   
     background-size: cover;
     background-position: center;
+    overflow:hidden;
+    
 }
 
 .mainTitleContainer{
     text-align: center;
     grid-column: 1/3;
     grid-row:1;
+
+    animation: slideIn 1s;
 }
 
 .mainTextContainer{
     text-align: center;
     grid-column: 1/3;
     grid-row: 2;
+
+    animation: slideIn 1s;
 }
 
 .contactForm{
     padding:1em;
     grid-column: 1/3;
     grid-row: 3;
+
+    animation: slideIn 1s;
 }
 
 .mainTitle{
@@ -38,4 +46,14 @@
 .contactText{
     color:white;
     font-size: xx-large;
+}
+
+@keyframes slideIn {
+    
+    0%{
+        transform: translateX(-500px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
 }

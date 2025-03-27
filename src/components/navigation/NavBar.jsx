@@ -12,7 +12,6 @@ function NavBar(){
         } else {
             setIsHidden(true)
         }
-        console.log(isHidden)
     }
 
     return(

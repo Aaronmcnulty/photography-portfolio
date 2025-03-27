@@ -5,11 +5,25 @@ form{
     flex-direction: column;
     justify-content: center;
     color: white;
-    border: solid;
     padding:1em;
 }
 
-section{
+fieldset{
     display: grid;
 }
 
+legend{
+    font-size: large;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+label{
+    margin: 5px 0px 5px 0px;
+}
+
+.submitButton{
+    display: flex;
+    padding:5px;
+    justify-content:end;
+}

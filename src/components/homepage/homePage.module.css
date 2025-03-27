@@ -6,7 +6,7 @@
     background-position: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 6fr;
+    grid-template-rows: 2fr 1fr 6fr;
     min-height: 90%;
     justify-content: center;
     align-items: center;
