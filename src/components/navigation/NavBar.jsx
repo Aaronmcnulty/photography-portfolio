@@ -22,7 +22,7 @@ function NavBar(){
                 <div className={styles.menuToggle}>
                     <p onClick={handleMenuClick} >///</p>
                 </div>
-                {isHidden &&  
+                {!isHidden &&  
                     <div className={styles.navLinksContainer}>
                         <Link className={styles.navLink} to="/">Home</Link>
                         <Link className={styles.navLink} to="gallery">Gallery</Link>

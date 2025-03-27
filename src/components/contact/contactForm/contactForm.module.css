@@ -1,0 +1,15 @@
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    border: solid;
+    padding:1em;
+}
+
+section{
+    display: grid;
+}
+

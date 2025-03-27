@@ -1,4 +1,5 @@
 
+import ContactForm from "./contactForm/ContactForm"
 import styles from "./contactPage.module.css"
 
 function ContactPage(){
@@ -13,6 +14,10 @@ function ContactPage(){
             <div className={styles.mainTextContainer}>
                 <p className={styles.contactText}>contact details etc...</p>
             </div>
+            <div className={styles.contactForm}>
+                <ContactForm />
+            </div>
+            
         </div>
     )
 }
