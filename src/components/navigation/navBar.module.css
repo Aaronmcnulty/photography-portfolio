@@ -7,4 +7,27 @@
 .navBarContainer{
     display: flex;
     justify-content: space-evenly;
+
+   overflow: hidden;
+}
+
+.navLinksContainer{
+   animation: slideIn 1s;
+}
+
+.menuToggle{
+    padding-right: 1em;
+}
+
+@keyframes slideIn {
+    
+    0%{
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
 }
