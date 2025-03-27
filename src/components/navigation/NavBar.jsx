@@ -7,6 +7,7 @@ function NavBar(){
     return(
         <>
             <Link className={styles.navLink} to="/">Home</Link>
+            <Link className={styles.navLink} to="gallery">Gallery</Link>
             <Link className={styles.navLink} to="contact">Contact</Link>
         </>
         
