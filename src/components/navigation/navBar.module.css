@@ -2,3 +2,9 @@
 .navLink{
     color:Red;
 }
+
+.navBarContainer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
