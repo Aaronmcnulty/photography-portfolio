@@ -1,4 +1,32 @@
 
-.homePageContainer{
-    background-color: aqua;
+.homepageContainer{
+    display: flex;
+    min-height: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    background-image: url("../../assets/pictures/mainPic.jpeg");   
+    background-size: cover;
+    background-position: center;
+
+
+
+}
+
+.homepageTitleContainer{
+
+}
+
+.homepageTextContainer{
+
+}
+
+.homepageTitle{
+    color:white;
+}
+
+.homepageText{
+    color:white;
+    font-size: xx-large;
 }

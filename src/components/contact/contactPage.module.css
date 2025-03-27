@@ -1,0 +1,23 @@
+
+.contactPageContainer{
+    display: flex;
+    min-height: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    background-image: url("../../assets/pictures/backupPic.jpeg");   
+    background-size: cover;
+    background-position: center;
+}
+
+.mainTitleContainer
+
+.mainTitle{
+    color:white;
+}
+
+.contactText{
+    color:white;
+    font-size: xx-large;
+}

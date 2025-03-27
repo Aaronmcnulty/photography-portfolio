@@ -4,9 +4,16 @@ import styles from "./contactPage.module.css"
 function ContactPage(){
 
     return(
-        <>
-        <p>Contact</p>
-        </>
+        <div className={styles.contactPageContainer}>
+
+            <div className={styles.mainTitleContainer}>
+                <h1 className={styles.mainTitle}>Contact</h1>
+            </div>    
+
+            <div>
+                <p className={styles.contactText}>contact details etc...</p>
+            </div>
+        </div>
     )
 }
 
