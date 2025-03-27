@@ -10,7 +10,7 @@ function ContactPage(){
                 <h1 className={styles.mainTitle}>Contact</h1>
             </div>    
 
-            <div>
+            <div className={styles.mainTextContainer}>
                 <p className={styles.contactText}>contact details etc...</p>
             </div>
         </div>

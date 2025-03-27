@@ -6,12 +6,12 @@ function HomePage(){
     return(
         <div className={styles.homepageContainer}>
             
-            <div className={styles.homepageTitleContainter}>
-                <h1 className={styles.homepageTitle}>It Is Home...</h1>
+            <div className={styles.titleContainer}>
+                <h1 className={styles.mainTitle}>It Is Home...</h1>
             </div>
 
-            <div className={styles.homepageTextContainer}>
-                <p className={styles.homepageText}>Home Text</p>
+            <div className={styles.textContainer}>
+                <p className={styles.mainText}>Home Text</p>
             </div>
 
             

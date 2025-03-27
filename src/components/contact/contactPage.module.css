@@ -1,6 +1,8 @@
 
 .contactPageContainer{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 6fr;
     min-height: 90%;
     flex-direction: column;
     justify-content: center;
@@ -11,7 +13,17 @@
     background-position: center;
 }
 
-.mainTitleContainer
+.mainTitleContainer{
+    text-align: center;
+    grid-column: 1/3;
+    grid-row:1;
+}
+
+.mainTextContainer{
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 2;
+}
 
 .mainTitle{
     color:white;
