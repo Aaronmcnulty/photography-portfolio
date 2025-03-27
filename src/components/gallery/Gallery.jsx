@@ -9,7 +9,9 @@ function Gallery(){
             </div>
             
             <div className={styles.controlsContainer}>
+            <label>Gallery:  </label>
                 <select>
+                    
                     <option>110mm</option>
                     <option>35mm</option>
                 </select>
